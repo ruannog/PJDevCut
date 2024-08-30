@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barbearia DevCut</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Barbearia DevCut</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#about">Sobre Nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#team">Equipe</a></li>
+                    <li><a href="#gallery">Galeria</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h2>Bem-vindo à Barbearia DevCut</h2>
+            <p>Seu estilo, nosso compromisso.</p>
+            <a href="#booking" class="btn">Agende seu horário</a>
+        </div>
+    </section>
+
+    <section id="about" class="info">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma barbearia dedicada a oferecer o melhor corte de cabelo e cuidados com a barba. Nossa equipe é altamente qualificada e apaixonada pelo que faz.</p>
+        </div>
+    </section>
+
+    <section id="services" class="info">
+        <div class="container">
+            <h2>Serviços</h2>
+            <div class="service-list">
+                <div class="service">
+                    <h3>Corte de Cabelo</h3>
+                    <p>R$30</p>
+                </div>
+                <div class="service">
+                    <h3>Barba</h3>
+                    <p>R$20</p>
+                </div>
+                <div class="service">
+                    <h3>Pacote Completo</h3>
+                    <p>R$45</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="team">
+        <div class="container">
+            <h2>Nossa Equipe</h2>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Membro da equipe">
+                <h3>Marcelo petri</h3>
+                <p>Barbeiro chefe com 10 anos de experiência.</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="Membro da equipe">
+                <h3>Talita Oliveira</h3>
+                <p>Especialista em cortes modernos e estilos.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>Galeria</h2>
+            <div class="gallery-images">
+                <img src="https://via.placeholder.com/300" alt="Trabalho 1">
+                <img src="https://via.placeholder.com/300" alt="Trabalho 2">
+                <img src="https://via.placeholder.com/300" alt="Trabalho 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="info">
+        <div class="container">
+            <h2>Contato</h2>
+            <form id="booking-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="date">Data:</label>
+                <input type="date" id="date" name="date" required>
+                
+                <label for="time">Hora:</label>
+                <input type="time" id="time" name="time" required>
+                
+                <button type="submit" class="btn">Agendar</button>
+            </form>
+            <p id="response-message"></p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Barbearia Exemplo. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
